@@ -1,5 +1,7 @@
 # 🧮 Calculadora Simples em C#
 
+![Demonstração da Calculadora](./screenshot.png)
+
 Uma calculadora de console desenvolvida em C# para realizar operações matemáticas básicas. Este projeto foi criado para praticar os fundamentos da linguagem e a estrutura de projetos .NET.
 
 ## 🚀 Funcionalidades
