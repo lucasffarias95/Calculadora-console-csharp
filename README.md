@@ -1,20 +1,33 @@
-# Calculadora Console em C#
+# 🧮 Calculadora Simples em C#
 
-Aplicação de console desenvolvida em C# com o objetivo de praticar lógica de programação e fundamentos da linguagem.
+Uma calculadora de console desenvolvida em C# para realizar operações matemáticas básicas. Este projeto foi criado para praticar os fundamentos da linguagem e a estrutura de projetos .NET.
 
-## Funcionalidades
-- Menu de operações
-- Soma, subtração, multiplicação e divisão
-- Tratamento de opção inválida
-- Loop para múltiplas operações
-- Validação de divisão por zero
+## 🚀 Funcionalidades
 
-## Conceitos aplicados
-- Estruturas de decisão (switch/case)
-- Estruturas de repetição (while)
-- Tipos numéricos (double)
-- Entrada e saída via console
+* Soma
+* Subtração
+* Multiplicação
+* Divisão
 
-## Tecnologias
-- C#
-- .NET
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** C#
+* **Plataforma:** .NET Core / .NET SDK
+
+## ⚙️ Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/lucasffarias95/Calculadora-console-csharp.git](https://github.com/lucasffarias95/Calculadora-console-csharp.git)
+   ```
+2. Entre na pasta do projeto:
+   ```bash
+    cd CalculadoraSimples
+   ```
+   
+3. Execute o projeto:
+   ```bash
+   dotnet run
+   ```
+   
+   Feito por Lucas Farias
