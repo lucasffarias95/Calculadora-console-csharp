@@ -6,18 +6,18 @@ namespace CalculadoraSimples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá, essa é uma calculadora simples");
+            Console.WriteLine("Olá, esta é uma calculadora simples");
             int opcao = -1;
             double numero1, numero2;
 
             while (opcao != 0)
             {
-                Console.WriteLine(" -- Escolha a operaçao -- ");
-                Console.WriteLine("-- Opcao 0 - Sair -- ");
-                Console.WriteLine("-- Opçao 1 - Somar --");
-                Console.WriteLine("-- Opçao 2 - Subtrair --");
-                Console.WriteLine("-- Opçao 3 - Multiplicar --");
-                Console.WriteLine("-- Opçao 4 - Dividir --");
+                Console.WriteLine(" -- Escolha a Operação -- ");
+                Console.WriteLine("-- Opção 0 - Sair -- ");
+                Console.WriteLine("-- Opção 1 - Somar --");
+                Console.WriteLine("-- Opção 2 - Subtrair --");
+                Console.WriteLine("-- Opção 3 - Multiplicar --");
+                Console.WriteLine("-- Opção 4 - Dividir --");
 
                 opcao = int.Parse(Console.ReadLine());
 
@@ -63,7 +63,7 @@ namespace CalculadoraSimples
 
                         if (numero2 == 0)
                         {
-                            Console.WriteLine("Nao é possivel dividir por zero");
+                            Console.WriteLine("Não é possivel dividir por zero");
                         }
                         else
                         {
@@ -75,7 +75,7 @@ namespace CalculadoraSimples
                         break;
 
                     default:
-                        Console.WriteLine("Opcao inválida");
+                        Console.WriteLine("Opção inválida");
                         break;
                 }
             }
